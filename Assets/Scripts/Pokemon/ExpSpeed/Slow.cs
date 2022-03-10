@@ -1,0 +1,113 @@
+using System.Collections;
+
+namespace Pokemon.ExpSpeed
+{
+    public class Slow : ExpSpeed
+    {
+        public Slow()
+        {
+            SpeedRating = "Slow";
+            ExpAccumulate[0] = 0;
+            ExpAccumulate[1] = 9;
+            ExpAccumulate[2] = 57;
+            ExpAccumulate[3] = 96;
+            ExpAccumulate[4] = 135;
+            ExpAccumulate[5] = 179;
+            ExpAccumulate[6] = 236;
+            ExpAccumulate[7] = 314;
+            ExpAccumulate[8] = 419;
+            ExpAccumulate[9] = 560;
+            ExpAccumulate[10] = 742;
+            ExpAccumulate[11] = 973;
+            ExpAccumulate[12] = 1261;
+            ExpAccumulate[13] = 1612;
+            ExpAccumulate[14] = 2035;
+            ExpAccumulate[15] = 2535;
+            ExpAccumulate[16] = 3120;
+            ExpAccumulate[17] = 3798;
+            ExpAccumulate[18] = 4575;
+            ExpAccumulate[19] = 5460;
+            ExpAccumulate[20] = 6458;
+            ExpAccumulate[21] = 7577;
+            ExpAccumulate[22] = 8825;
+            ExpAccumulate[23] = 10208;
+            ExpAccumulate[24] = 11735;
+            ExpAccumulate[25] = 13411;
+            ExpAccumulate[26] = 15244;
+            ExpAccumulate[27] = 17242;
+            ExpAccumulate[28] = 19411;
+            ExpAccumulate[29] = 21760;
+            ExpAccumulate[30] = 24294;
+            ExpAccumulate[31] = 27021;
+            ExpAccumulate[32] = 29949;
+            ExpAccumulate[33] = 33084;
+            ExpAccumulate[34] = 36435;
+            ExpAccumulate[35] = 40007;
+            ExpAccumulate[36] = 43808;
+            ExpAccumulate[37] = 47846;
+            ExpAccumulate[38] = 52127;
+            ExpAccumulate[39] = 56660;
+            ExpAccumulate[40] = 61450;
+            ExpAccumulate[41] = 66505;
+            ExpAccumulate[42] = 71833;
+            ExpAccumulate[43] = 77440;
+            ExpAccumulate[44] = 83335;
+            ExpAccumulate[45] = 89523;
+            ExpAccumulate[46] = 96012;
+            ExpAccumulate[47] = 102810;
+            ExpAccumulate[48] = 109923;
+            ExpAccumulate[49] = 117360;
+            ExpAccumulate[50] = 125126;
+            ExpAccumulate[51] = 133229;
+            ExpAccumulate[52] = 141677;
+            ExpAccumulate[53] = 150476;
+            ExpAccumulate[54] = 159635;
+            ExpAccumulate[55] = 169159;
+            ExpAccumulate[56] = 179056;
+            ExpAccumulate[57] = 189334;
+            ExpAccumulate[58] = 199999;
+            ExpAccumulate[59] = 211060;
+            ExpAccumulate[60] = 222522;
+            ExpAccumulate[61] = 234393;
+            ExpAccumulate[62] = 246681;
+            ExpAccumulate[63] = 259392;
+            ExpAccumulate[64] = 272535;
+            ExpAccumulate[65] = 286115;
+            ExpAccumulate[66] = 300140;
+            ExpAccumulate[67] = 314618;
+            ExpAccumulate[68] = 329555;
+            ExpAccumulate[69] = 344960;
+            ExpAccumulate[70] = 360838;
+            ExpAccumulate[71] = 377197;
+            ExpAccumulate[72] = 394045;
+            ExpAccumulate[73] = 411388;
+            ExpAccumulate[74] = 429235;
+            ExpAccumulate[75] = 447591;
+            ExpAccumulate[76] = 466464;
+            ExpAccumulate[77] = 485862;
+            ExpAccumulate[78] = 505791;
+            ExpAccumulate[79] = 526260;
+            ExpAccumulate[80] = 547274;
+            ExpAccumulate[81] = 568841;
+            ExpAccumulate[82] = 590969;
+            ExpAccumulate[83] = 613664;
+            ExpAccumulate[84] = 636935;
+            ExpAccumulate[85] = 660787;
+            ExpAccumulate[86] = 685228;
+            ExpAccumulate[87] = 710266;
+            ExpAccumulate[88] = 735907;
+            ExpAccumulate[89] = 762160;
+            ExpAccumulate[90] = 789030;
+            ExpAccumulate[91] = 816525;
+            ExpAccumulate[92] = 844653;
+            ExpAccumulate[93] = 873420;
+            ExpAccumulate[94] = 902835;
+            ExpAccumulate[95] = 932903;
+            ExpAccumulate[96] = 963632;
+            ExpAccumulate[97] = 995030;
+            ExpAccumulate[98] = 1027103;
+            ExpAccumulate[99] = 1059860;
+            ExpAccumulate[100] = 2147483647;
+        }
+    }
+}

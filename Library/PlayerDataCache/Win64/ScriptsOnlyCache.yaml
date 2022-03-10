@@ -1,0 +1,2248 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - AccountController.AccountController
+    - Archive.Save
+    - BallRotate
+    - ChangeModel
+    - ChangeNature
+    - ClickTest1
+    - CursorManager
+    - DefaultNamespace.IfMeetController
+    - EX
+    - EXIT
+    - EscExit
+    - INITPIOKEMON
+    - Login.LoadGameButton
+    - Login.NewGameButton
+    - Login.createTxt
+    - LoginPanel
+    - MeetPokemon
+    - NewBehaviourScript
+    - Player.BagScript.BackPackStuffController
+    - Player.BagScript.BackPackStuffControllerInBattle
+    - Player.HomeScript.HomeShow
+    - Player.Player
+    - RegistPanel
+    - Scripts.HomeDoor
+    - Shop.ShopCanvas
+    - Shop.ShopController
+    - Shop.ShopDoor
+    - ShowDetail
+    - TipPanel
+    - battleControl
+    - battlePVE
+    - battlePVP
+    - changePokemon
+    - choosePokemon
+    - hosptial
+    - learningbuilding
+    - modelShow
+    - setTEXT
+    - showOur
+    - video
+    - whatPV
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_ColorGradient
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Text
+    Zenject-Editor.dll:
+    - Zenject.Internal.DefaultSceneContractConfig
+    Zenject-IntegrationTests.dll:
+    - Zenject.Tests.AutoInjecter.Bar
+    - Zenject.Tests.AutoInjecter.Gorp
+    - Zenject.Tests.AutoInjecter.Qux
+    - Zenject.Tests.Bindings.DiContainerMethods.Foo
+    - Zenject.Tests.Bindings.DiContainerMethods.Foo2
+    - Zenject.Tests.Bindings.DiContainerMethods.Gorp
+    - Zenject.Tests.Bindings.DiContainerMethods.Gorp2
+    - Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext.Foo
+    - Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext.FooInstaller
+    - Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext.Gorp
+    - Zenject.Tests.Bindings.FromNewScriptableObjectResource.Bob
+    - Zenject.Tests.Bindings.FromNewScriptableObjectResource.Foo
+    - Zenject.Tests.Bindings.FromPrefab.Bar
+    - Zenject.Tests.Bindings.FromPrefab.Bob
+    - Zenject.Tests.Bindings.FromPrefab.Foo
+    - Zenject.Tests.Bindings.FromPrefab.Gorp
+    - Zenject.Tests.Bindings.FromPrefab.Jim
+    - Zenject.Tests.Bindings.FromPrefab.Norf
+    - Zenject.Tests.Bindings.FromPrefab.Norf2
+    - Zenject.Tests.Bindings.FromPrefab.Qux
+    - Zenject.Tests.Bindings.FromPrefabInstaller.Bar
+    - Zenject.Tests.Bindings.FromPrefabInstaller.Foo
+    - Zenject.Tests.Bindings.FromPrefabResource.Bar
+    - Zenject.Tests.Bindings.FromPrefabResource.Bob
+    - Zenject.Tests.Bindings.FromPrefabResource.Foo
+    - Zenject.Tests.Bindings.FromPrefabResource.Gorp
+    - Zenject.Tests.Bindings.FromPrefabResource.Jim
+    - Zenject.Tests.Bindings.FromPrefabResource.Norf
+    - Zenject.Tests.Bindings.FromPrefabResource.Norf2
+    - Zenject.Tests.Bindings.FromPrefabResource.Qux
+    - Zenject.Tests.Bindings.FromSubContainerPrefab.Bar
+    - Zenject.Tests.Bindings.FromSubContainerPrefab.CircFoo
+    - Zenject.Tests.Bindings.FromSubContainerPrefab.Foo
+    - Zenject.Tests.Bindings.FromSubContainerPrefab.FooInstaller
+    - Zenject.Tests.Bindings.FromSubContainerPrefabResource.Bar
+    - Zenject.Tests.Bindings.FromSubContainerPrefabResource.Foo
+    - Zenject.Tests.Bindings.FromSubContainerPrefabResource.FooInstaller
+    - Zenject.Tests.Bindings.InstantiateCallback.Foo
+    - Zenject.Tests.Factories.BindFactory.Bar
+    - Zenject.Tests.Factories.BindFactory.Foo
+    - Zenject.Tests.Factories.BindFactoryFive.Foo
+    - Zenject.Tests.Factories.BindFactoryFive.FooInstaller
+    - Zenject.Tests.Factories.BindFactoryOne.Bar
+    - Zenject.Tests.Factories.BindFactoryOne.Foo
+    - Zenject.Tests.Factories.BindFactoryOne.FooInstaller
+    - Zenject.Tests.Factories.PrefabFactory.Foo
+    - Zenject.Tests.Factories.PrefabFactory.Foo2
+    - Zenject.Tests.Installers.MonoInstallers.BarInstaller
+    - Zenject.Tests.Installers.MonoInstallers.FooInstaller
+    - Zenject.Tests.Installers.MonoInstallers.QuxInstaller
+    - Zenject.Tests.Installers.ScriptableObjectInstallers.BarInstaller
+    - Zenject.Tests.Installers.ScriptableObjectInstallers.FooInstaller
+    - Zenject.Tests.Installers.ScriptableObjectInstallers.QuxInstaller
+    - Zenject.Tests.TestAnimationStateBehaviourInject.StateBehaviour1
+    Zenject-TestFramework.dll:
+    - Zenject.SceneTestFixtureSceneReference
+    Zenject.dll:
+    - Zenject.Asteroids.Asteroid
+    - Zenject.Asteroids.GameSettingsInstaller
+    - Zenject.Asteroids.Ship
+    - Zenject.GameObjectContext
+    - Zenject.SpaceFighter.Bullet
+    - Zenject.SpaceFighter.EnemyFacade
+    - Zenject.SpaceFighter.EnemyView
+    - Zenject.SpaceFighter.Explosion
+    - Zenject.SpaceFighter.GameSettingsInstaller
+    - Zenject.ZenAutoInjecter
+    - Zenject.ZenjectBinding
+  sceneClasses:
+    Assets/Scenes/firstscene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1516}
+    - Class: 114
+      Script: {instanceID: 1518}
+    - Class: 114
+      Script: {instanceID: 1524}
+    - Class: 114
+      Script: {instanceID: 1546}
+    - Class: 114
+      Script: {instanceID: 1552}
+    - Class: 114
+      Script: {instanceID: 1644}
+    - Class: 114
+      Script: {instanceID: 1702}
+    - Class: 114
+      Script: {instanceID: 1728}
+    - Class: 114
+      Script: {instanceID: 1734}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 1796}
+    - Class: 114
+      Script: {instanceID: 1842}
+    - Class: 114
+      Script: {instanceID: 1846}
+    - Class: 114
+      Script: {instanceID: 1870}
+    - Class: 114
+      Script: {instanceID: 1886}
+    - Class: 114
+      Script: {instanceID: 1892}
+    - Class: 114
+      Script: {instanceID: 1914}
+    - Class: 114
+      Script: {instanceID: 1968}
+    - Class: 114
+      Script: {instanceID: 1972}
+    - Class: 114
+      Script: {instanceID: 1980}
+    - Class: 114
+      Script: {instanceID: 2096}
+    - Class: 114
+      Script: {instanceID: 2144}
+    - Class: 114
+      Script: {instanceID: 2164}
+    - Class: 114
+      Script: {instanceID: 2282}
+    - Class: 114
+      Script: {instanceID: 2296}
+    - Class: 114
+      Script: {instanceID: 2302}
+    - Class: 114
+      Script: {instanceID: 2304}
+    - Class: 114
+      Script: {instanceID: 2324}
+    - Class: 114
+      Script: {instanceID: 2354}
+    - Class: 114
+      Script: {instanceID: 2416}
+    - Class: 114
+      Script: {instanceID: 2488}
+    - Class: 114
+      Script: {instanceID: 2514}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2624}
+    - Class: 114
+      Script: {instanceID: 2642}
+    - Class: 114
+      Script: {instanceID: 2732}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2758}
+    - Class: 114
+      Script: {instanceID: 2768}
+    - Class: 114
+      Script: {instanceID: 2782}
+    - Class: 114
+      Script: {instanceID: 2788}
+    - Class: 114
+      Script: {instanceID: 2796}
+    - Class: 114
+      Script: {instanceID: 2826}
+    - Class: 114
+      Script: {instanceID: 2834}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 2900}
+    - Class: 114
+      Script: {instanceID: 2956}
+    - Class: 114
+      Script: {instanceID: 2986}
+    - Class: 114
+      Script: {instanceID: 3012}
+    - Class: 114
+      Script: {instanceID: 3042}
+    - Class: 114
+      Script: {instanceID: 3086}
+    - Class: 114
+      Script: {instanceID: 3106}
+    - Class: 114
+      Script: {instanceID: 3122}
+    - Class: 114
+      Script: {instanceID: 3214}
+    - Class: 114
+      Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 3290}
+    - Class: 114
+      Script: {instanceID: 3336}
+    - Class: 114
+      Script: {instanceID: 3360}
+    - Class: 114
+      Script: {instanceID: 3374}
+    - Class: 114
+      Script: {instanceID: 3378}
+    - Class: 114
+      Script: {instanceID: 3408}
+    - Class: 114
+      Script: {instanceID: 3458}
+    - Class: 114
+      Script: {instanceID: 3492}
+    - Class: 114
+      Script: {instanceID: 3524}
+    - Class: 114
+      Script: {instanceID: 3564}
+    - Class: 114
+      Script: {instanceID: 3568}
+    - Class: 114
+      Script: {instanceID: 3582}
+    - Class: 114
+      Script: {instanceID: 3632}
+    - Class: 114
+      Script: {instanceID: 3692}
+    - Class: 114
+      Script: {instanceID: 3714}
+    - Class: 114
+      Script: {instanceID: 3718}
+    - Class: 114
+      Script: {instanceID: 3762}
+    - Class: 114
+      Script: {instanceID: 3782}
+    - Class: 114
+      Script: {instanceID: 3810}
+    - Class: 114
+      Script: {instanceID: 3840}
+    - Class: 114
+      Script: {instanceID: 3858}
+    - Class: 114
+      Script: {instanceID: 3972}
+    - Class: 114
+      Script: {instanceID: 4008}
+    - Class: 114
+      Script: {instanceID: 4226}
+    - Class: 114
+      Script: {instanceID: 4350}
+    - Class: 114
+      Script: {instanceID: 4374}
+    - Class: 114
+      Script: {instanceID: 4382}
+    - Class: 114
+      Script: {instanceID: 4446}
+    - Class: 114
+      Script: {instanceID: 4448}
+    - Class: 114
+      Script: {instanceID: 4518}
+    - Class: 114
+      Script: {instanceID: 4536}
+    - Class: 114
+      Script: {instanceID: 4552}
+    - Class: 114
+      Script: {instanceID: 4574}
+    - Class: 114
+      Script: {instanceID: 4688}
+    - Class: 114
+      Script: {instanceID: 4710}
+    - Class: 114
+      Script: {instanceID: 4718}
+    - Class: 114
+      Script: {instanceID: 4720}
+    - Class: 114
+      Script: {instanceID: 4820}
+    - Class: 114
+      Script: {instanceID: 4836}
+    - Class: 114
+      Script: {instanceID: 4880}
+    - Class: 114
+      Script: {instanceID: 4994}
+    - Class: 114
+      Script: {instanceID: 5024}
+    - Class: 114
+      Script: {instanceID: 5088}
+    - Class: 114
+      Script: {instanceID: 5144}
+    - Class: 114
+      Script: {instanceID: 5176}
+    - Class: 114
+      Script: {instanceID: 5296}
+    - Class: 114
+      Script: {instanceID: 5314}
+    - Class: 114
+      Script: {instanceID: 5430}
+    - Class: 114
+      Script: {instanceID: 5456}
+    - Class: 114
+      Script: {instanceID: 5492}
+    - Class: 114
+      Script: {instanceID: 5604}
+    - Class: 114
+      Script: {instanceID: 5634}
+    - Class: 114
+      Script: {instanceID: 5642}
+    - Class: 114
+      Script: {instanceID: 5744}
+    - Class: 114
+      Script: {instanceID: 5894}
+    - Class: 114
+      Script: {instanceID: 5902}
+    - Class: 114
+      Script: {instanceID: 5948}
+    - Class: 114
+      Script: {instanceID: 5956}
+    - Class: 114
+      Script: {instanceID: 5966}
+    - Class: 114
+      Script: {instanceID: 6106}
+    - Class: 114
+      Script: {instanceID: 6116}
+    - Class: 114
+      Script: {instanceID: 6148}
+    - Class: 114
+      Script: {instanceID: 6310}
+    - Class: 114
+      Script: {instanceID: 6318}
+    - Class: 114
+      Script: {instanceID: 6354}
+    - Class: 114
+      Script: {instanceID: 6368}
+    - Class: 114
+      Script: {instanceID: 6402}
+    - Class: 114
+      Script: {instanceID: 6500}
+    - Class: 114
+      Script: {instanceID: 6576}
+    - Class: 114
+      Script: {instanceID: 43550}
+    - Class: 114
+      Script: {instanceID: 541466}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: MonoInstallerBase
+  - hash:
+      serializedVersion: 2
+      Hash: 83ac89a95f3f9ea1a0834e9f209f6c53
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: battleControl
+  - hash:
+      serializedVersion: 2
+      Hash: 5051c5c4bc74b787b340b2ada9101f05
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoginPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Player.BagScript
+    className: BackPackStuffController
+  - hash:
+      serializedVersion: 2
+      Hash: a6b2b285fcfdb0c347c81c546fb7dff5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChinarSmoothUi3DCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 62fef86270a167c41a606cfca1ecc156
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ShaderPropAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: f08eb5dd576ff13f3673da4df7a85f50
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: MonoInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Bob
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableUpdateTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: setTEXT
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 0a2978e3395af709ccbee9602befdf58
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Player
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: f8e74d3f58303a77d36504c8cf6dacef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewBehaviourScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactory
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Archive
+    className: TestSave
+  - hash:
+      serializedVersion: 2
+      Hash: 0900b2a2edaa5053e22ac979962d76bf
+    assemblyName: Zenject-TestFramework.dll
+    namespaceName: Zenject
+    className: SceneTestFixtureSceneReference
+  - hash:
+      serializedVersion: 2
+      Hash: 8a874a8207a7664bdf44e61f28717254
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SkewTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: c8b6e28fe620a823f8990f96b3362d7d
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: CircFoo
+  - hash:
+      serializedVersion: 2
+      Hash: ca1c44e3f5b4fba71832f19b2a997b39
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RegistPanel
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabInstaller
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: e6f0efd0e20669d577e9d21526b3d3f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: WarpTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Archive
+    className: Save
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SimpleScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableSubmitTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a0ba410f2bb1e959a5c70df9b7705ca2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: video
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.MonoInstallers
+    className: QuxInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Login
+    className: NewGameButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_DigitValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableCanvasGroupChangedTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: EnemyFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: onclick
+  - hash:
+      serializedVersion: 2
+      Hash: aef9386513e10c2b58b4c2172faf4e3c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: learningbuilding
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
+    className: QuxInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: DefaultGameObjectKernel
+  - hash:
+      serializedVersion: 2
+      Hash: 02af58cbffe209911809f89e980fc2a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ClickTest1
+  - hash:
+      serializedVersion: 2
+      Hash: 4de301ba8c05d21c66933a8db2bef0d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Player.BagScript
+    className: BackPackStuffDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: bf356b35e99505f260f3572aaadd060a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: clickTest2
+  - hash:
+      serializedVersion: 2
+      Hash: f08eb5dd576ff13f3673da4df7a85f50
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableBeginDragTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d5de1c9a7feae1dfb2eda43d0789cd33
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: PlayerGui
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableVisibleTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: dbf65f1faa4ff0f8cd010b305c06301d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DefaultNamespace
+    className: IfMeetController
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: AccountController
+    className: AccountController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableTransformChangedTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Bob
+  - hash:
+      serializedVersion: 2
+      Hash: afc31e4ddab91135bb6bac9ec14612e8
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: PlayerInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableDropTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 655675a941ea756088027703b43352a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseLook
+  - hash:
+      serializedVersion: 2
+      Hash: 536caf6b81f17962945bea14cd859e9d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Login
+    className: LoadGameButton
+  - hash:
+      serializedVersion: 2
+      Hash: c843365aa2b3b8fcae9807d060e6d5e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Shop
+    className: ShopDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.AutoInjecter
+    className: Qux
+  - hash:
+      serializedVersion: 2
+      Hash: 423b732f4fa271c6b0e5b4556867edec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeModel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactoryFive
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 90277704ece3ccddb50a43901005a06e
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: GameObjectContext
+  - hash:
+      serializedVersion: 2
+      Hash: 5bb0c23ac2810973880e592724a69354
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark02
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: changePokemon
+  - hash:
+      serializedVersion: 2
+      Hash: 0a2978e3395af709ccbee9602befdf58
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: move33
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.InstantiateCallback
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: showOur
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableRectTransformTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: Asteroid
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableCancelTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 4d16cfbaa8e821a2b370e80844a0e9bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ZenjectStateMachineBehaviourAutoInjecter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EscExit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EXIT
+  - hash:
+      serializedVersion: 2
+      Hash: aef9386513e10c2b58b4c2172faf4e3c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: choosePokemon
+  - hash:
+      serializedVersion: 2
+      Hash: 27e5341178f188b89bdc6495710b590c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01_UGUI
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 8c70d0118cf6d8d3c73dbee7ba6e8ee9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: INITPIOKEMON
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: b93db4689ddd4e6fd211e48d11e45b47
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Scripts
+    className: HomeDoor
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_A
+  - hash:
+      serializedVersion: 2
+      Hash: 60cd3889cd3e4eb6edcb3e79f707404c
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: Bullet
+  - hash:
+      serializedVersion: 2
+      Hash: 26d8420d411073ff79776f96257e7df0
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: EnemyView
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: AnimatorMoveHandlerManager
+  - hash:
+      serializedVersion: 2
+      Hash: e100fd826c6ebff737761b47a9a5bca7
+    assemblyName: Zenject-Editor.dll
+    namespaceName: Zenject.Internal
+    className: DefaultSceneContractConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 0a2978e3395af709ccbee9602befdf58
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: move
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Shop
+    className: ShopCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: aef9386513e10c2b58b4c2172faf4e3c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MeetPokemon
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Qux
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: GuiRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Player.BagScript
+    className: BackPackStuffControllerInBattle
+  - hash:
+      serializedVersion: 2
+      Hash: 54e21c755bc66db70c9fcf8dbab0a84e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark03
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableDeselectTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: aef9386513e10c2b58b4c2172faf4e3c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: hosptial
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromNewScriptableObjectResource
+    className: Bob
+  - hash:
+      serializedVersion: 2
+      Hash: c45ef8c30cc2ee343077d78e1f372297
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: Explosion
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableMouseTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EX
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 03b1f2ee800c4cc86ad8554760d0e7ea
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: GuiHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Gorp2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabInstaller
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservablePointerClickTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 0784d4fd5b93bd75440d01eb2fac4233
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeA
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 42c6852ad60d41ec965f75f396f1fb79
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ProjectContext
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableUpdateSelectedTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Norf2
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Norf
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactoryOne
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableCollision2DTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: fe2d355deb0ca31d59a0a7cf4d141fc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark04
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Foo2
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: de88a1a6170e972f8306cbb4aa4a2a4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: move2
+  - hash:
+      serializedVersion: 2
+      Hash: 12b2953808454320486b747eb6a140b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowDetail
+  - hash:
+      serializedVersion: 2
+      Hash: aef9386513e10c2b58b4c2172faf4e3c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeNature
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableEventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableJointTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 72494140485f0c1465e95e50148ffa0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChinarRotateObject
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableStateMachineTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: AnimatorIkHandlerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3cf156985df62fac63708d6bed3583bf
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: TilingBackground
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: buttonClick
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactoryOne
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableTrigger2DTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3d4d5dd917d642fdd71fc939ad04f108
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: ControlsDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 3cae62e09a50c5d5aae8d0536b3d8fde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChatController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableDestroyTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromNewScriptableObjectResource
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 12b2953808454320486b747eb6a140b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Player.HomeScript
+    className: HomeShow
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexJitter
+  - hash:
+      serializedVersion: 2
+      Hash: c12f6929b034322884ced721fca65b10
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshProFloatingText
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.AutoInjecter
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactory
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: GameInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Norf2
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e71c2d5e3ffb611a6e533a6e3602d724
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: battlePVE
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: PlayerFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableEnableTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: fabd68684369ca59f4d87c548e10f946
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: modelShow
+  - hash:
+      serializedVersion: 2
+      Hash: 29ab74c7fdc1448c133740c67aae90e8
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.PrefabFactory
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4e516d6d64d44446989426b8f725c6f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_TextEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 4f7c883b482d662cb9806791738ebf81
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ZenAutoInjecter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.PrefabFactory
+    className: Foo2
+  - hash:
+      serializedVersion: 2
+      Hash: 497dc427ff08631ed34209e5f5304319
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BallRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Qux
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableAnimatorTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableLateUpdateTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 6cef1a2f5ae3af78f4815d6fb076c559
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeB
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactoryOne
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableTriggerTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: e22f949ff8b8e80c2ee5f61c94dc3880
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: whatPV
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableEndDragTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: GameInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: a1ca1237bad0f30ea5ba8f4060929114
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_B
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8ce7490218aa3427e7b51d3293cb15b1
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 8b1fe5dfdcf943fb3b72506b9f19335f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ScriptableObjectInstallerBase
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_UiFrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: d11e8618cf4ef5c438744956d1ca4eea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChinarUi3DCamera
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonTest
+  - hash:
+      serializedVersion: 2
+      Hash: a9118fb5f6d913bd7f7536f843376959
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ZenjectBinding
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableInitializePotentialDragTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8ed3d56f3b2b2d744745b88ef60a0eb4
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: GameSettingsInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx
+    className: MainThreadDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f9c05aa86e45cc76878136fb48a10c5d
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: SceneDecoratorContext
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableParticleTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ProjectKernel
+  - hash:
+      serializedVersion: 2
+      Hash: 6d022d9ff248227139002644faf03785
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.AutoInjecter
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 3375c3d749f8f4cad889721b431bdc27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableScrollTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 131c5752640db1311e3056df745b33f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChinarRotateObjectSelf
+  - hash:
+      serializedVersion: 2
+      Hash: 155e489e41e3aef6fa66113c5b9ad79f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoginInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ScriptableObjectInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservablePointerUpTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ecda7aa6d6c8acb3f715e0119f3e8f74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: battlePVP
+  - hash:
+      serializedVersion: 2
+      Hash: 8cc8a7527f653a82113a0d6d552c67c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CursorManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactoryFive
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableDragTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableFixedUpdateTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservablePointerEnterTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Jim
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservablePointerDownTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: fe1fdeffc2067077b2f1a90b210c2532
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DropdownSample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_PhoneNumberValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservablePointerExitTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.TestAnimationStateBehaviourInject
+    className: StateBehaviour1
+  - hash:
+      serializedVersion: 2
+      Hash: bf356b35e99505f260f3572aaadd060a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: t1
+  - hash:
+      serializedVersion: 2
+      Hash: e80c1450883443c68d6c2dade213536f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexColorCycler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableSelectTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: b16a6adc97f40b49027b23341e726ecd
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: GameSettingsInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Norf
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableCollisionTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a6362d436bb5a59e256993fdcb245d16
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Shop
+    className: MouseEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TeleType
+  - hash:
+      serializedVersion: 2
+      Hash: e244702e0dc05782229aa524e4d757f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_ExampleScript_01
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextConsoleSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.MonoInstallers
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Jim
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
+    className: BarInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Scripts
+    className: Log
+  - hash:
+      serializedVersion: 2
+      Hash: 11319334e5365797f8056694f9b5dae4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ObjectSpin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: b6514f552bd2ee9e736a5678aa7f7de3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextInfoDebugTool
+  - hash:
+      serializedVersion: 2
+      Hash: 757c3eaa6510b537693b1fb3baea024c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TipPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: lifebar1
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.MonoInstallers
+    className: BarInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: SceneKernel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Shop
+    className: ShopController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 47930f3b40e24ef5b3b5e3d9ada7097a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.dll
+    namespaceName: UniRx.Triggers
+    className: ObservableMoveTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 445f0087cd919990f5679a24a2ce2edc
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: Ship
+  - hash:
+      serializedVersion: 2
+      Hash: dd7520b7d4e690e8c593273e7b9fbe80
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: bdcadd17a444a5a9b63a624792e3b779
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: SceneContext
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Login
+    className: createTxt
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/firstscene.unity
+  playerPath: "C:/Users/\u673A\u68B0\u9769\u547D/Desktop/Pokemon1.exe"

@@ -1,0 +1,58 @@
+{
+  "$type": "Archive.User, Assembly-CSharp",
+  "Account": "123",
+  "Password": "123",
+  "Archives": {
+    "$type": "Archive.Archive, Assembly-CSharp",
+    "Path": null,
+    "ArchivePlayer": {
+      "$type": "Archive.ArchivePlayer, Assembly-CSharp",
+      "speed_move": 40.0,
+      "PlayerName": "123",
+      "Money": 500,
+      "CurrentPokemonList": {
+        "$type": "Pokemon.Pokemon[], Assembly-CSharp",
+        "$values": [
+          null,
+          null,
+          null
+        ]
+      },
+      "SpeedMove": 40.0,
+      "Home": {
+        "$type": "Player.Home, Assembly-CSharp",
+        "Pokemon": {
+          "$type": "System.Collections.ArrayList, mscorlib",
+          "$values": []
+        }
+      },
+      "BackpackStuff": {
+        "$type": "Archive.ArchiveBackPackStuff, Assembly-CSharp",
+        "StuffList": {
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": []
+        },
+        "KindsOfStuff": 0,
+        "Inventory": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+        }
+      },
+      "BackPackPokemon": {
+        "$type": "Player.BackPackPokemon, Assembly-CSharp",
+        "Pokemon": {
+          "$type": "Pokemon.Pokemon[], Assembly-CSharp",
+          "$values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "Pointer": 0
+      }
+    },
+    "ID": 0
+  }
+}
